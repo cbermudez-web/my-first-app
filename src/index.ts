@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.status(200).send({
-    msg: "Hello world",
+    msg: "Hello panini",
   });
 });
 
